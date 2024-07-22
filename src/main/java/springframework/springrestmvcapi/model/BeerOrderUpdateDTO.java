@@ -1,9 +1,10 @@
-package springframework.springrestmvcapi;
+package springframework.springrestmvcapi.model;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Builder;
 import lombok.Data;
 
+import java.math.BigDecimal;
 import java.util.Set;
 import java.util.UUID;
 
@@ -18,4 +19,6 @@ public class BeerOrderUpdateDTO {
 
     private Set<BeerOrderLineUpdateDTO> beerOrderLinesUpdateDTO;
     private BeerOrderShipmentUpdateDTO shipmentUpdateDTO;
+
+    private BigDecimal paymentAmount;
 }

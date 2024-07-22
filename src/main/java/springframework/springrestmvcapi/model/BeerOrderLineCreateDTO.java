@@ -1,4 +1,4 @@
-package springframework.springrestmvcapi;
+package springframework.springrestmvcapi.model;
 
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotNull;

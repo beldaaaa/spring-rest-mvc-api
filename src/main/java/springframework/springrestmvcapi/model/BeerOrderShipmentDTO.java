@@ -1,4 +1,4 @@
-package springframework.springrestmvcapi;
+package springframework.springrestmvcapi.model;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;
